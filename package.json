@@ -1,0 +1,15 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "emulate": "jest --forceExit --detectOpenHandles __tests__/emulate.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.4.7",
+    "puppeteer": "^13.1.1"
+  }
+}
