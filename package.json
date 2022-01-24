@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "emulate": "jest --forceExit --detectOpenHandles __tests__/emulate.js"
+    "emulate": "jest --forceExit --detectOpenHandles __tests__/emulate_devices/emulate.test.js"
   },
   "author": "",
   "license": "ISC",

@@ -4,12 +4,12 @@ let page;
 
 
 beforeAll( async () => {
-    browser = await puppeteer.launch( { headless: "true" } );
-    page = await browser.newPage();
+  browser = await puppeteer.launch( { headless: "true" } );
+  page = await browser.newPage();
 } );
 
 afterAll( async () => {
-    await browser.close();
+  await browser.close();
 } );
 
 describe( 'Emulate some devices', () => {
