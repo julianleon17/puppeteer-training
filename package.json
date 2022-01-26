@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "emulate": "jest --forceExit --detectOpenHandles __tests__/emulate_devices/emulate.test.js"
+    "emulate": "jest --forceExit --detectOpenHandles __tests__/emulate_devices/emulate.test.js",
+    "incognito": "jest --forceExit --detectOpenHandles __tests__/incognito_page/incognito.test.js"
   },
   "author": "",
   "license": "ISC",
