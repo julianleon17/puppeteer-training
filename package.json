@@ -6,7 +6,8 @@
   "scripts": {
     "emulate": "jest --forceExit --detectOpenHandles __tests__/emulate_devices/emulate.test.js",
     "incognito": "jest --forceExit --detectOpenHandles __tests__/incognito_page/incognito.test.js",
-    "screenshot": "jest --forceExit --detectOpenHandles __tests__/screenshot/screenshot.test.js"
+    "screenshot": "jest --forceExit --detectOpenHandles __tests__/screenshot/screenshot.test.js",
+    "pdf": "jest --forceExit --detectOpenHandles __tests__/generate_pdf/pdf.test.js"
   },
   "author": "",
   "license": "ISC",
